@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstsection {
+   background-color: black;
+   color: white;
+   padding: 0px 16%;
+}
+
+
+header{
+  display: flex;
+  
+margin: 12px auto 32px auto;
+flex: 1;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-left: auto;
+    gap: 16px;
+}
+.first2 {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: stretch;
+    padding-bottom: 28px;
+   
+    
+}
+.first22 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+h1 {
+    margin: 0px;
+}
+.first22 button{
+    background-color: rgb(221, 3, 3);
+    color: white;
+    margin-right: auto;
+    padding: 4px;
+    border-radius: 12px;
+    box-shadow: none;
+    transition: none;
+    margin-top: auto;
+}
+
+.first2 img {
+    flex: 1; /* כל אחד יקבל גודל שווה */
+} 
+
+.secondsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    color: rgb(253, 245, 229);
+    
+}
+
+.text{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.imgs {
+    display: flex;
+    margin: 0px;
+    padding: 0%;
+    justify-content: space-between;
+    flex: 1;
+    gap: 22px;
+}
+
+.imgs div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgs div p {
+    word-wrap: break-word;
+    max-width: 120px;
+    text-align: center;
+
+}
+
+.imgs div img {
+    border-radius: 15%;
+}
+
+.section3 {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 0px 30%;
+}
+
+.lastp{
+    margin-left: auto;
+    margin-top: 0px;
+    font-family: 'Cursive', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+
+
+}
+
+footer {
+    background-color: red;
+    padding: 25px;
+}
+
+.footer {
+    margin: 20px 10%;
+    padding: 20px 11%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.footer p {
+    margin: 0px;
+}
+
+.footer:last-child {
+    font-size: 15px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border-radius: 12px;
+}
+
